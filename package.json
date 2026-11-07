@@ -1,0 +1,28 @@
+{
+  "name": "buck2-dotslash-bootstrap-shim",
+  "version": "0.1.0",
+  "description": "A buck2 on PATH that runs the buck2 each checkout pins with a DotSlash file.",
+  "license": "MIT",
+  "bin": {
+    "buck2": "bin/buck2.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "fb-dotslash": "0.5.8",
+    "ini": "5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhawkes/buck2-dotslash-bootstrap-shim.git"
+  },
+  "author": "nhawkes"
+}
